@@ -63,7 +63,7 @@ def load_data(city, month, day):
     df['hour'] = df['Start Time'].dt.hour
     
     # now we will filter the data using month
-    
+    # i using the file of python to see the defrant and whit can do on project
     if month != "all":
         months = ['janury', 'february' , 'march' , 'april'  , 'may' , 'june']
         month = months.index(month)+1
